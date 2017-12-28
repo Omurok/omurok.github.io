@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>Html練習狂</title>
@@ -8,8 +9,69 @@
 <link rel="stylesheet" href="style.css" />
 
 <body>
-  <p><!--Commenting Testa--->
-  <h2>  Company name <br /><i> <small>slogan for the company</small></h2></i>
+  <p>
+    <a href="#Kafka">Go to Kafka</a>
+    <a href="#Picture">Go to Picture</a>
+    <!--Commenting Testa--->
+<form method="get" action="">
+  <!-- Contents of the form -->
+
+<fieldset>
+  <h3><sup>Contact</sup> Form</h3>
+  <div>
+  <label for="userName">
+    Name:</label><input type="text" name="userName" id="userNameId" placeholder="我的名字是"/>
+  </div>
+  <div>
+    Email:<input type="email" name="userEmail" id="userEmailID"/>
+  </div>
+  <div>
+<!-- <input type="color" />
+<input type="checkbox" name="checkboxName" value="123">
+<input type="checkbox" name="checkboxName" value="456">
+<input type="date" name="" value="">
+<input type="datetime-local" name="" value="">
+><input type="image" name="" value=""> -->
+
+<input type="number" min="500" max="50000" placeholder="500-50000" width="200px"/><br />
+<input type="radio" name="leigislator" id="leigislator">
+<label for="leigislator">leigislator</label>
+<input type="radio" name="member" id="member">
+<label for="member">member</label>
+<input type="radio" name="representor" id="representor">
+<label for="representor">representor</label>
+<input type="radio" name="borough" id="borough">
+<label for="borough">borough</label>
+
+</div>
+
+<div>
+    </fieldset>
+    <fieldset>
+      <input type="reset" />
+    <input type="submit" value="Press Me"/>
+  </div>
+</fieldset>
+
+<fieldset>
+  <h4>所要參選種類</h4>
+  <select class="SelectClass" name="SelectName" >
+    <option value="0">立委</option>
+    <option value="1">議員</option>
+    <option value="2">代表</option>
+    <option value="3">里長</option>
+  </select>
+  <textarea name="textArea" rows="5" cols="20" placeholder="想說的話" size="10" maxlength="5" required></textarea>
+</fieldset>
+
+
+
+</form>
+
+
+
+
+    <h2>  Company name <br /><i> <small>slogan for the company</small></h2></i>
   </p>
   <h1>Testa H1</h1>
   <h2>and subTitle.. h2</h2>
@@ -18,33 +80,56 @@
   </p>Hello
 
   <h3>What?? H3!!</h3>
-   <p>
+  <p>
     World</p>
-    <ul>
-      <li>
-        <img src="image/image1.jpg" width="30%"/>  </li>
-        <li>  <img src="image/image2.jpg" width="30%"/>  </li>
-        <li>  <img src="image/image3.jpg" width="30%"/>  </li>
-        <li>  <img src="image/image4.jpg" width="30%"/>
-      </li>
-    </ul>
-    <ul>
-      <ol type="i" start="10">
-        <li> <img src="image/image1.jpg" width="30%"/>  </li>
-        <ul>
-          <li>
-            1
-          </li>
-          <li>
-            2
-          </li>
-        </ul>
-         <li> <img src="image/image2.jpg" width="30%"/>  </li>
-        <li>  <img src="image/image3.jpg" width="30%"/>  </li>
-        <li>  <img src="image/image4.jpg" width="30%"/></li>
+
+    <p id="Kafka">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+
+<p>The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. "What's happened to me? " he thought. It wasn't a dream.</p>
+
+<p>His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame. It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather. Drops</p>
+  <table>
+
+
+  <tr id="Picture">
+    <th>
+      <li> <img src="image/image1.jpg" width="80%" /> </li>
+      <li> <img src="image/image2.jpg" width="80%" /> </li>
+      <li> <img src="image/image3.jpg" width="80%" /> </li>
+      <li> <img src="image/image4.jpg" width="80%" /></li>
+    </th>
+    <td>
+      <li> <img src="image/image1.jpg" width="80%" /> </li>
+      <li> <img src="image/image2.jpg" width="80%" /> </li>
+      <li> <img src="image/image3.jpg" width="80%" /> </li>
+      <li> <img src="image/image4.jpg" width="80%" /></li>
+    </td>
+    <td>
+      <li> <img src="image/image1.jpg" width="80%" /> </li>
+      <li> <img src="image/image2.jpg" width="80%" /> </li>
+      <li> <img src="image/image3.jpg" width="80%" /> </li>
+      <li> <img src="image/image4.jpg" width="80%" /></li>
+    </td>
+
+    <!-- <li><img src="image/image1.jpg" width="80%" /> </li>
+    <li> <img src="image/image2.jpg" width="80%" /> </li>
+    <li> <img src="image/image3.jpg" width="80%" /> </li>
+    <li> <img src="image/image4.jpg" width="80%" /></li> -->
+  </tr>
+
+  </table>
+  <ul>
+    <ol type="i" start="10">
+      <li> <img src="image/image1.jpg" width="30%" /> </li>
+      <ul>
+        <li>1</li>
+        <li>2</li></ul>
+      <li> <img src="image/image2.jpg" width="30%" /> </li>
+      <li> <img src="image/image3.jpg" width="30%" /> </li>
+      <li> <img src="image/image4.jpg" width="30%" /></li>
     </ol>
 
-<!--
+    <!--
   <p>Li Europan lingues <img src="image/image1.jpg" width="50%" />es membres del sam familie.
       Lor separat existentie es un myth. Por scientie, musica,
       sport etc, litot Europa usa <a href="http://floatingland.net" target="_blank">FloatingLand</a> sam vocabular. Li lingues
@@ -53,4 +138,5 @@
 <img src="image/image4.jpg" alt="Image of Beauty Girl" width="100%"/>
 --->
 </body>
+
 </html>

@@ -1,3 +1,10 @@
+input{
+  background-color: yellow;
+}
+textarea{
+  margin: 10px;
+  text-align: center;
+}
 p{
   background-color:white;
   color:black;
@@ -25,4 +32,24 @@ em{
   background-color: #525252;
   color: #b59696;
   margin: 50px;
+}
+html{
+  /* background-color: black; */
+}
+ul{
+  margin: 5;
+  padding: 3;
+}
+ol{
+
+  margin: 30;
+  padding: 30;
+}
+table{
+  border: 1px solid black;
+  max-width: 600px;
+}
+th,td{
+  border: 3px solid yellow;
+  max-width: 10%;
 }
