@@ -1,0 +1,28 @@
+p{
+  background-color:white;
+  color:black;
+}
+
+em{
+  background-color:black;
+  color:blue;
+}
+
+#myID{
+  background-color: #eee;
+  color: black;
+}
+#myID2{
+  background-color: white;
+  color: yellow;
+}
+.myClass{
+  background-color: yellow;
+  color: red;
+  margin: 20px;
+}
+.secClass{
+  background-color: #525252;
+  color: #b59696;
+  margin: 50px;
+}
